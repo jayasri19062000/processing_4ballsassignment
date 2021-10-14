@@ -1,17 +1,18 @@
 import processing.core.PApplet;
 
-public class TryProcess extends PApplet {
+public class Procedural_Processing extends PApplet {
 
     public static void main(String[] args) {
-        PApplet.main("TryProcess", args);
+        PApplet.main("Procedural_Processing", args);
     }
 
-    int x = 0;
+    int width=640;
+    int height=480;
 
     @Override
     public void settings() {
         super.settings();
-        size(640, 480);
+        size(width,height);
     }
 
     @Override
